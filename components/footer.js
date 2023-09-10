@@ -1,12 +1,11 @@
-const footer = document.getElementById('pruebaFooter');
+const footer = document.querySelector('footer');
 
 const myFooter = () => {
     return footer.innerHTML = `
     <div class="row container-fluid pt-3 m-0 mt-5">
         <div
-          class="col-sm-4 p-0 d-flex justify-content-center align-items-center"
-        >
-          <img src="./img/LOGO" alt="logo" height="100px" width="100px" />
+          class="col-sm-4 p-0 d-flex justify-content-center align-items-center">
+          <p> Designed by Group 1 of Project 2 Rolling Code School
         </div>
         <div class="col-sm-4 p-0">
           <div>
@@ -69,7 +68,4 @@ const myFooter = () => {
       </div>`;
 }
 
-myFooter();
-exports = {
-  myFooter
-};
+export default myFooter;
