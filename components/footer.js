@@ -2,7 +2,7 @@ const footer = document.querySelector('footer');
 
 const myFooter = () => {
     return footer.innerHTML = `
-    <div class="row container-fluid pt-3 m-0 mt-5">
+    <div class="row container-fluid pt-3 m-0 mt-5 navbar-fixed-bottom">
         <div
           class="col-sm-4 p-0 d-flex justify-content-center align-items-center">
           <p> Designed by Group 1 of Project 2 Rolling Code School
@@ -47,7 +47,7 @@ const myFooter = () => {
         </div>
         <div class="col-sm-4 p-0">
           <div>
-            <div class="card-body">
+            <div class="card-body ps-5">
               <h4 class="card-title pb-2">Soporte</h4>
               <div>
                 <ul>
