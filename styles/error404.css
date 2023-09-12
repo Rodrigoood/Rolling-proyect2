@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../video/The\ Matrix\ Raining\ Green\ Code\ Backdrop\ for\ OBS\ -\ Teams\,\ Zoom\ calls\ in\ 4k\ \(1080p\).mp4)   
+}
+
+h1 {
+    font-size: 4em;
+    color: #ffffff;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+
+.animation-container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.humano {
+    position: absolute;
+    bottom: 25px;
+    margin-top: 0px;
+    left: 24px;
+    height: 250px;
+    width: 250px;    
+    animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.back-button {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
+
+.miVideo {
+    position: fixed;
+    z-index: 0;
+}
+
+.container {
+    padding: 5%;
+    z-index: 1;
+}
