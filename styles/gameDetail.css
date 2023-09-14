@@ -1,0 +1,16 @@
+* {
+  background-color: rgb(0, 0, 0);
+  font-family: cursive;
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  background-color: rgb(0, 0, 0);
+}
+
+.btn:hover {
+  background-color: rgb(244, 185, 8);
+  transition: 2s ease-in-out;
+}

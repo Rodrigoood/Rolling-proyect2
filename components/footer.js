@@ -1,7 +1,7 @@
-const footer = document.querySelector('footer');
+const footer = document.querySelector("footer");
 
 const myFooter = () => {
-    return footer.innerHTML = `
+  return (footer.innerHTML = `
     <div class="row container-fluid pt-3 m-0 mt-5 navbar-fixed-bottom">
     <div class="col-sm-4 p-0">
     <div>
@@ -65,7 +65,7 @@ const myFooter = () => {
       class="col-sm-4 p-0 d-flex justify-content-center align-items-center">
       <p> Designed by Group 1 of Project 2 Rolling Code School
     </div>
-      </div>`;
-}
+      </div>`);
+};
 
 export default myFooter;
