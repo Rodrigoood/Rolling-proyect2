@@ -8,4 +8,37 @@ export const messages = {
     userNotExist: 'El usuario no existe.',
     userOrPasswordBad: 'Usuario o contraseña erronea.',
     
+    
   };
+
+  /**
+ * @param {Event} e Recibe el evento de el formulario.
+ * @returns Un objeto con todas las propiedades y valores de los inputs.
+ */
+
+export const getFormData = (e) => {
+  const formData = new FormData(e.target);
+  const formObject = {};
+  for (const [key, value] of formData.entries()) {
+    formObject[key] = value;
+  }
+  return formObject;
+};
+
+async function obtenerInformacion  () {
+    
+  let informacion = await fetch('../dataBase/db.json')
+  .then(response => response.json())
+  .then(data => {
+      return data 
+  })
+  .catch(error => {
+    console.error('Error al cargar el archivo JSON:', error);
+  });
+  
+  return informacion;
+  } 
+  
+  export  {
+    obtenerInformacion,
+  }

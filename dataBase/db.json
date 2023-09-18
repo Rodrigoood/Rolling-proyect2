@@ -1,5 +1,39 @@
 {
   "users": [
-    
+    {
+      "id": 1,
+      "email": "francochaile2013.14@gmail.com",
+      "userName": "Franco",
+      "date": "Wed Aug 16 2023 20:21:43 GMT-0300",
+      "password": "asd123",
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "email": "rodrigoherrera03.08.2002@gmail.com",
+      "userName": "Rodri",
+      "date": "Wed Aug 16 2023 20:21:43 GMT-0300",
+      "password": "asd123",
+      "role": "ADMIN"
+    },
+    {
+      "email": "guastavino.cristhian@gmail.com",
+      "userName": "Cristhian",
+      "date": "2023-08-29T00:21:02.128Z",
+      "password": "asd123",
+      "role": "ADMIN",
+      "id": 3
+    },
+    {
+      "email": "alebusi@gmail.com",
+      "userName": "Ale",
+      "password": "asd123",
+      "role": "USER",
+      "passwordCheck": "asd123",
+      "date": "2023-08-30T23:22:34.014Z",
+      "id": 4
+    }
+
+
   ]
 }
