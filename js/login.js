@@ -1,25 +1,5 @@
 import { getFormData, messages } from './utils.js';
 
-document.addEventListener('DOMContentLoaded', () => {
-  if (localStorage.getItem('userLog')) {
-    Swal.fire({
-      title: messages.userAlreadyLog,
-      text: messages.closeSessionPrompt,
-      icon: 'question',
-      showCancelButton: true,
-      confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#d33',
-      cancelButtonText: 'Ir al inicio',
-      confirmButtonText: 'Si, deseo cerrar la cuenta!',
-    }).then((result) => {
-      if (result.isConfirmed) {
-        localStorage.removeItem('userLog');
-      } else {
-        window.location.href = '../index.html';
-      }
-    });
-  }
-});
 
 const loginCheck = async (e) => {
   e.preventDefault();
