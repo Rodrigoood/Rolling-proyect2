@@ -2,7 +2,7 @@ const footer = document.querySelector("footer");
 
 const myFooter = () => {
   return (footer.innerHTML = `
-    <div class="footer row container-fluid pt-3 m-0 mt-5 navbar-fixed-bottom bg-dark">
+    <div class="row container-fluid pt-3 m-0 mt-5 navbar-fixed-bottom bg-dark">
     <div class="col-sm-4 p-0">
     <div>
     <div class="card-body ps-5">
