@@ -10,7 +10,10 @@ main{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url(../img/about-us.jpg)     
+    background-image: url(../img/about-us.jpg);
+    
+
+
   }
   .contenedor{
     padding-top: 6;
